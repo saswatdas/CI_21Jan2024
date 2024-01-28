@@ -33,7 +33,7 @@ jobs:
          make lint
     - name: Test with pytest
       run: |
-        make pytest
+        make test
     - name: Format Code with black
       run: |
         make black
