@@ -36,4 +36,4 @@ jobs:
         make test
     - name: Format Code with black
       run: |
-        make black
+        make format
